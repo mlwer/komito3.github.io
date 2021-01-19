@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>ENS Solution</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="0.html"><img src="img/logo-text.png" alt="" width="150" height="auto" class="d-inline-block align-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                제품소개
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">서버/워크 스테이션</a></li>
+                <li><a class="dropdown-item" href="#">Ciara</a></li>
+                <li><a class="dropdown-item" href="#">Dellemc</a></li>
+                <li><a class="dropdown-item" href="#">Vmware</a></li>
+                <li><a class="dropdown-item" href="#">Veritas</a></li>
+                <li><a class="dropdown-item" href="#">Cubeone</a></li>
+                <li><a class="dropdown-item" href="#">Nvidia</a></li>
+                <li><a class="dropdown-item" href="#">Solarflare/자일링스카드</a></li>
+                <li><a class="dropdown-item" href="#">유지보수</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                고성능 서버
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">고객사</a></li>
+                <li><a class="dropdown-item" href="#">협력사</a></li>
+                <li><a class="dropdown-item" href="#">퍼포먼스</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                회사소개
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">연혁</a></li>
+                <li><a class="dropdown-item" href="#">조직도</a></li>
+                <li><a class="dropdown-item" href="#">공지사항</a></li>
+                <li><a class="dropdown-item" href="#">찾아오시는길</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/m4.jpg" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="img/m1 수정5.jpg" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="img/m2.jpg" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="img/mainSlideImg08.jpg" class="img-fluid" alt=""></div>
+
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div class="row row-cols-2 row-cols-md-3">
+      <div class="col mb-5">
+        <div class="card">
+          <img src="img/ai.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+          <div class="col mb-5">
+        <div class="card">
+          <img src="img/선물옵션차익거래.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+          <div class="col mb-5">
+        <div class="card">
+          <img src="img/CAE설계.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col mb-5">
+          <div class="card">
+            <img src="img/반도체.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+            <div class="col mb-5">
+          <div class="card">
+            <img src="img/수치계산.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+            <div class="col mb-5">
+          <div class="card">
+            <img src="img/영상처리.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'vertical',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      })
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
