@@ -59,13 +59,14 @@
 
     .m04-con {
       width: 100%;
+      height: 100%;
       float: left;
       background: url(../img/dmobg.jpg) center center no-repeat;
       background-size: cover;
       weight: 100%;
     }
 
-    .m04-con .left {
+    .form {
       width: 50%;
       float: left;
       background: url(../img/투명위젯.png) center center no-repeat;
@@ -108,7 +109,6 @@
     .m04-con .right {
       width: 50%;
       float: right;
-
     }
 
     .m04-con .right .ri-left {
