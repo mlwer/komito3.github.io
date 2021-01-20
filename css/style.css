@@ -49,12 +49,12 @@
     .m04-wrap{}
     .m04-con{}
     .m04-con {width: 100%; float: left; background: url(../img/dmobg.jpg) center center no-repeat; background-size: cover;}
-    .form-in{width: 100%;}
+    .form-in{width: 50%;}
     .form-in li.mb20{margin-bottom: 20px;}
     .form-in li:last-of-type{margin-bottom: 0;}
-    .form-in li b{font-size: 16px; line-height:30px; width: 150px; letter-spacing:0; font-weight: 500; color: #111; display: block; float: left;}
+    .form-in li b{font-size: 16px; line-height:30px; width: 150px; letter-spacing:0; font-weight: 500; color: #fff; display: block; float: left;}
     .form-in li .radiobox input[type="radio"]{display: none;}
-    .form-in li .radiobox label{margin-right: 25px; font-size: 16px; line-height:30px; letter-spacing:0; font-weight: 300; color: #333; cursor:pointer;}
+    .form-in li .radiobox label{margin-right: 25px; font-size: 16px; line-height:30px; letter-spacing:0; font-weight: 300; color: #fff; cursor:pointer;}
     .form-in li .radiobox label i{width: 17px; height: 17px; margin-right:8px; box-sizing:border-box; border: 0; background: center center no-repeat; background-size: cover; display: inline-block; vertical-align: middle;}
     .form-in li .radiobox input[type="radio"]:checked + label i{background: center center no-repeat; background-size: cover;}
     .form-in li .radiobox label:last-of-type{margin-right: 0;}
