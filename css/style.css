@@ -50,7 +50,6 @@
     .m04-con{}
     .m04-con {width: 100%; float: left; background: url(../img/dmobg.jpg) center center no-repeat; background-size: cover;}
     .form-in{width: 100%;}
-    .form-in li{margin-bottom: 10px;}
     .form-in li.mb20{margin-bottom: 20px;}
     .form-in li:last-of-type{margin-bottom: 0;}
     .form-in li b{font-size: 16px; line-height:30px; width: 150px; letter-spacing:0; font-weight: 500; color: #111; display: block; float: left;}
