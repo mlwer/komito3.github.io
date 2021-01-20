@@ -53,16 +53,7 @@
     }
 
     /* m04 */
-  .m04-wrap{}
-  .m04-con{width: 100%; float: left; background: url(img/dmobg1.jpg) center center no-repeat; background-size: cover;}
-  .m04-con .left .le-right{height: 715px; width: 630px; float: right;}
-  .m04-con .left .le-right .txt{top: 50%; left: 0; transform: translate(0,-50%); -webkit-transform: translate(0,-50%); -o-transform: translate(0,-50%); -moz-transform: translate(0,-50%); -ms-transform: translate(0,-50%); position: absolute; z-index: 1;}
-  .m04-con .left .le-right .txt em{font-size: 25px; line-height:1; letter-spacing:0; font-weight: 400; color: #fff; display: block; font-style: normal;}
-  .m04-con .left .le-right .txt p{margin: 20px 0 35px; font-size: 40px; line-height:1; letter-spacing:-0.05em; font-weight: bold; color: #fff;}
-  .m04-con .left .le-right .txt span{font-size: 18px; line-height:30px; letter-spacing:-0.05em; font-weight: 300; color: #fff; display: block;}
-  .m04-con .right{width: 50%; float: left; background: #f7f7f7;}
-  .m04-con .right .ri-left{height: 715px; width: 630px; float: left;}
-  .m04-con .right .ri-left .m04-form{top: 50%; right: 0; width: 530px; position: absolute; z-index: 1; transform: translate(0, -50%); -webkit-transform: translate(0, -50%); -o-transform: translate(0, -50%); -moz-transform: translate(0, -50%); -ms-transform: translate(0, -50%);}
+  .m04-con{width: 100%; float: left; background: url(img/dmobg.jpg) center center no-repeat; background-size: cover;}
   .form-in{width: 100%;}
   .form-in li{margin-bottom: 10px;}
   .form-in li.mb20{margin-bottom: 20px;}
