@@ -63,8 +63,8 @@
     .form-in li .checkbox{}
     .form-in li .checkbox input[type="checkbox"]{display: none;}
     .form-in li .checkbox label{font-size: 16px; line-height:30px; letter-spacing:0; font-weight: 300; color: #333; cursor:pointer;}
-    .form-in li .checkbox label i{width: 30px; height: 30px; margin-right:12px; box-sizing:border-box; border: 0; background: url(../img/m04-check-off.png) center center no-repeat; background-size: cover; display: inline-block; vertical-align: top;}
-    .form-in li .checkbox input[type="checkbox"]:checked + label i{background: url(../img/m04-check-on.png) center center no-repeat; background-size: cover;}
+    .form-in li .checkbox label i{width: 30px; height: 30px; margin-right:12px; box-sizing:border-box; border: 0; background: url(img/m04-check-off.png) center center no-repeat; background-size: cover; display: inline-block; vertical-align: top;}
+    .form-in li .checkbox input[type="checkbox"]:checked + label i{background: url(img/m04-check-on.png) center center no-repeat; background-size: cover;}
     .form-in li .submit{}
     .form-in li .submit input[type="submit"]{font-size: 18px; line-height: 60px; letter-spacing:0; font-weight: 400; color: #fff; background: #1c5cb0; text-align: center; width: 100%; box-sizing:border-box; border: 0; cursor:pointer;}
     /* m04 */
