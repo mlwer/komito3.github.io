@@ -73,7 +73,7 @@
   .form-in li .radiobox{padding-bottom: 10px; width: calc(100% - 150px); float: left; font-size: 0; box-sizing:border-box;}
   .form-in li .radiobox input[type="radio"]{display: none;}
   .form-in li .radiobox label{margin-right: 25px; font-size: 16px; line-height:30px; letter-spacing:0; font-weight: 300; color: #333; cursor:pointer;}
-  .form-in li .radiobox label i{width: 17px; height: 17px; margin-right:8px; box-sizing:border-box; border: 0; background: url(../img/m04-radio-off.png) center center no-repeat; background-size: cover; display: inline-block; vertical-align: middle;}
+  .form-in li .radiobox label i{width: 17px; height: 17px; margin-right:8px; box-sizing:border-box; border: 0; background: url(img/m04-radio-off.png) center center no-repeat; background-size: cover; display: inline-block; vertical-align: middle;}
   .form-in li .radiobox input[type="radio"]:checked + label i{background: url(img/m04-radio-on.png) center center no-repeat; background-size: cover;}
   .form-in li .radiobox label:last-of-type{margin-right: 0;}
   .form-in li > textarea{padding: 15px 20px; font-size: 15px; line-height:30px; height: 110px; letter-spacing:0; font-weight: 300; color: #666; width: 100%; resize:none; box-sizing:border-box; border: 1px solid #d5d5d5; background: #fff;}
