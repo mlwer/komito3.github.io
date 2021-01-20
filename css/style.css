@@ -54,7 +54,7 @@
 
     /* m04 */
   .m04-wrap{}
-  .m04-con{width: 100%; float: left; background: url(../img/dmobg.jpg) center center no-repeat; background-size: cover;}
+  .m04-con{width: 100%; float: left; background: url(../img/dmobg.jpg) center center no-repeat; background-size: cover; weight: 100%;}
   .m04-con .left{width: 50%; float: left; background: url(../img/투명위젯.png) center center no-repeat; background-size: cover;}
   .m04-con .left .le-right .txt{top: 50%; left: 0;}
   .m04-con .left .le-right .txt em{font-size: 25px; line-height:1; letter-spacing:0; font-weight: 400; color: #111; display: block; font-style: normal;}
