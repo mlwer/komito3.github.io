@@ -67,60 +67,12 @@
     }
 
     .form {
+      top: 50%
       width: 50%;
+      height: 200%;
       float: left;
       background: url(../img/투명위젯.png) center center no-repeat;
       background-size: cover;
-    }
-
-    .m04-con .left .le-right .txt {
-      top: 50%;
-      left: 0;
-    }
-
-    .m04-con .left .le-right .txt em {
-      font-size: 25px;
-      line-height: 1;
-      letter-spacing: 0;
-      font-weight: 400;
-      color: #111;
-      display: block;
-      font-style: normal;
-    }
-
-    .m04-con .left .le-right .txt p {
-      margin: 20px 0 35px;
-      font-size: 40px;
-      line-height: 1;
-      letter-spacing: -0.05em;
-      font-weight: bold;
-      color: #111;
-    }
-
-    .m04-con .left .le-right .txt span {
-      font-size: 18px;
-      line-height: 30px;
-      letter-spacing: -0.05em;
-      font-weight: 300;
-      color: #f11;
-      display: block;
-    }
-
-    .m04-con .right {
-      width: 50%;
-      float: right;
-    }
-
-    .m04-con .right .ri-left {
-      height: 715px;
-      width: 630px;
-      float: left;
-    }
-
-    .m04-con .right .ri-left .m04-form {
-      top: 50%;
-      right: 0;
-      width: 530px;
     }
 
     .form-in {
